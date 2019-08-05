@@ -72,3 +72,28 @@
 /*   overflow:hidden; */
 }
 
+
+@media (max-width: 600px) {
+  .akira {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  transition: all 600ms easeInBounce;
+  z-index:3;
+}
+
+.time{
+  position: absolute;
+  font-family: 'Lilita One';
+  text-shadow: 1px 1px 5px black;
+  font-size: 24px;
+  color: #ffffff;
+  left:10%;
+  top: 25%;
+  z-index:100;
+/*   overflow:hidden; */
+}
+}

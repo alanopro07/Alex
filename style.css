@@ -1,5 +1,12 @@
 /* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-image: linear-gradient(purple, hotpink);  background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
 
+#map {
+  height: 150px;  /* The height is 400 pixels */
+  width: 80%;  /* The width is the width of the web page */
+  background-color: pink;
+  display: flex;
+  justify-content: end;
+ }
 .akira {
     width: 200px;
     height: 200px;
@@ -34,7 +41,7 @@
 
 .cloud2{
   position: absolute;
-  top:40px;
+  /*top:40px;*/
   z-index:10;
   width: 100%;
   height: 500px;

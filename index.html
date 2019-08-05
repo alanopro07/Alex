@@ -46,16 +46,33 @@
   <h1>NO FALTES</h1>
   <h2>Te invito a mi fiesta</h2>
   <h3>Alan Alexander</h3>
-  <span> 10 / 08 / 2019</span>
+  <span> 10 / AGOSTO / 2019</span>
+  <p>Calle Herradura 120 </p>
+  <p>Colonia Rincones de la Hacienda</p>
+  <p>Tulancingo Hidalgo</p>
 </div>
-
 <div class="cloud"></div>
 
 <div class='cloud2'></div>
 
 <!-- Make the time into a health bar, fill up based on what time it is || # lives is the current local time in military notation -->
 <!-- partial -->
-  <script  src="./script.js"></script>
+  <script  src="script.js"></script>
 
+  <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 20.117972, lng: -98.403674};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: , center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+   </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPCMNH00SIGkVlVb22ZrhE6TGYV7azmSI&callback=initMap">
+    </script>
 </body>
 </html>
